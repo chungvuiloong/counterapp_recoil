@@ -1,14 +1,14 @@
 # Counter App using Recoil State Management
-
-
-https://mrjayscounterapp-recoil.vercel.app
-
+- A simple counter app using recoil state management
+- Used useRecoilState to transfer state to components 
 
 ### Todoapp  ( blazor & C# )
 ![Tools & Technologies](https://img.shields.io/badge/-Tools%20%26%20Technologies-grey?style=flat-square)
-![Blazor](https://img.shields.io/badge/-@blazor-blueviolet?style=flat-square)
+![Recoil](https://img.shields.io/badge/-Recoil-lightblue?style=flat-square)
+![Material UI](https://img.shields.io/badge/Material--UI-0081CB?style=flat-square&logo=material-ui&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSharp](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
+
 
 ![Github](https://img.shields.io/badge/Github-20232A?style=flat-square&logo=github&logoColor=white) - https://github.com/jirimicvl/counterapp_recoil
 
