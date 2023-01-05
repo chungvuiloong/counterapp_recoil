@@ -2,21 +2,33 @@ import './App.css';
 import {
   useRecoilState
 } from 'recoil';
-import Buttons from './components/Buttons';
+import Buttons from './components/Button';
 import {counter} from './atom/atom';
 
+// Material UI
+import { Container, Paper } from '@mui/material';
+import Header from './components/Header';
+import Footer from './components/Footer';
+
 function App() {
-  const [count, setCount] = useRecoilState(counter);
+  const [count] = useRecoilState(counter);
   return (
     <>
-      <div>Count: {count} </div>
-      {Buttons(+1)}
-      {Buttons(+5)}
-      {Buttons(+10)}
-      {Buttons(0)}
-      {Buttons(-1)}
-      {Buttons(-5)}
-      {Buttons(-10)}
+      <Header/>
+      <Container>
+        <Paper>
+
+          <div>Count: {count} </div>
+          {Buttons(+1)}
+          {Buttons(+5)}
+          {Buttons(+10)}
+          {Buttons(0)}
+          {Buttons(-1)}
+          {Buttons(-5)}
+          {Buttons(-10)}
+        </Paper>
+      </Container>
+      {/* <Footer/> */}
     </>
   );
 }
