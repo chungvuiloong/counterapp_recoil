@@ -2,7 +2,6 @@
 - A simple counter app using recoil state management
 - Used useRecoilState to transfer state to components 
 
-### Todoapp  ( blazor & C# )
 ![Tools & Technologies](https://img.shields.io/badge/-Tools%20%26%20Technologies-grey?style=flat-square)
 ![Recoil](https://img.shields.io/badge/-Recoil-lightblue?style=flat-square)
 ![Material UI](https://img.shields.io/badge/Material--UI-0081CB?style=flat-square&logo=material-ui&logoColor=white)
